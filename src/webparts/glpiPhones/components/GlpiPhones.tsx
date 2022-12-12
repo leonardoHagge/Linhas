@@ -150,9 +150,13 @@ export default function GlpiPhones() {
         setException(e);
       })
 
+
+
     if (!!l && l.length > 0) {
 
-      l = l.filter(li => li.groups_id !== 120);
+      l = l.filter(li => li.groups_id !== 120 && li.states_id !== 5);
+
+
 
       await new Promise<void>((resolve, reject) => {
         l.forEach(async (li, index) => {

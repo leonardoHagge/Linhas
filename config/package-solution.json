@@ -33,8 +33,10 @@
         "version": "1.0.0.0"
       }
     ]
+    
   },
   "paths": {
     "zippedPackage": "solution/glpi-phones.sppkg"
   }
+  
 }
