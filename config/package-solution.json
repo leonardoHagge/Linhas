@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "glpi-phones-client-side-solution",
+    "id": "6a39bd3f-e9ce-4e9e-88b3-38fd5cc273c2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "GLPI Phones description"
+      },
+      "longDescription": {
+        "default": "GLPI Phones description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "glpi-phones Feature",
+        "description": "The feature that activates elements of the glpi-phones solution.",
+        "id": "28cdac3c-352e-4cc5-81ff-8ee278791cd0",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/glpi-phones.sppkg"
+  }
+}

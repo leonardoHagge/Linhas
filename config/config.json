@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "glpi-phones-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/glpiPhones/GlpiPhonesWebPart.js",
+          "manifest": "./src/webparts/glpiPhones/GlpiPhonesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GlpiPhonesWebPartStrings": "lib/webparts/glpiPhones/loc/{locale}.js"
+  }
+}

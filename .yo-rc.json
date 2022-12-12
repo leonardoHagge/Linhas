@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.15.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.0",
+    "libraryName": "glpi-phones",
+    "libraryId": "6a39bd3f-e9ce-4e9e-88b3-38fd5cc273c2",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "GLPI Phones",
+    "solutionShortDescription": "GLPI Phones description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
